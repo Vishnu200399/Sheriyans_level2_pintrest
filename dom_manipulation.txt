@@ -1,0 +1,16 @@
+//Dom manipulation:
+//selection
+var home = document.querySelector('#home')
+//css change
+home.style.backgroundColor = "red";
+
+//html change
+home.innerHTML = "<marquee> Welcome to my page </marquee>"
+
+//text change
+home.textContent = "<i>Welcome to my page</i>"
+
+//adding listeners
+home.addEventListener('click', function(){
+    alert('you clicked me')
+})
